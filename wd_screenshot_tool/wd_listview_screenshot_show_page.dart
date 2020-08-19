@@ -3,10 +3,10 @@ import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_expansion_demo/longScreenCapture/wd_image_tool.dart';
-import 'package:flutter_expansion_demo/longScreenCapture/wd_screenshot_tool.dart';
 
+import 'wd_image_tool.dart';
 import 'wd_screenshot_page.dart';
+import 'wd_screenshot_tool.dart';
 
 class WdListViewScreenshotShowPage extends StatefulWidget {
   WdListViewScreenshotShowPage({Key key}) : super(key: key);
